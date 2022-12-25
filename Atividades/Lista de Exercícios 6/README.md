@@ -37,10 +37,31 @@
 ## 15. Um produtor agrícola lhe contratou para desenvolver um sistema de controle de grãos produzidos em três regiões; Sul, Sudeste e Centro-Oeste. A ideia da solução consistem em inserir a quantidade de grãos produzidos por cada região nos anos de 2017 e 2018 e ao final o programa deve gerar uma nova matriz com previsão de produção para o ano de 2019. A previsão é calculada a partir da porcentagem de crescimento para cada tipo de grão, que se mantém fixa a cada ano. A seguir é apresentado um exemplo de tabelas com os dados fornecidos pelo produtor.
 
 
-| Command | Description | Soja | Feijão | Arroz | Milho | |
-| --- | --- |
-| Sudeste | List all new or modified files |
-| Centro-Oeste | Show file differences that haven't been staged |
-| Sul | Show file differences that haven't been staged |
+- Ano de 2017
+Produção de Grãos (miT)
+Soja Feijão Arroz Milho
+Sudeste 100 200 300 400
+Centro-Oeste 2700 450 600 1000
+Sul 600 400 550 450
 
+- Ano de 2018
+Produção de Grãos (miT)
+Soja Feijão Arroz Milho
+Sudeste 130 230 600 500
+Centro-Oeste 3000 500 700 1200
+Sul 800 450 700 600
+
+- Ano de 2019
+Previsão da Produção de Grãos (miT)
+Soja Feijão Arroz Milho
+Sudeste 169
+(30%)
+264,5
+(15%)
+1200
+(100%)
+625
+(25%)
+Centro-Oeste
+Sul
 
